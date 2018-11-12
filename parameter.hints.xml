@@ -1,7 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="Java" />
+      <blacklist language="Java">
+        <added pattern="android.os.Parcel.writeParcelable(p,parcelableFlags)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
